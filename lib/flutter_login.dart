@@ -503,7 +503,7 @@ class _FlutterLoginState extends State<FlutterLogin>
       duration: loadingDuration,
     );
 
-    Future.delayed(const Duration(milliseconds: 500), () {
+    Future.delayed(const Duration(milliseconds: 300), () {
       if (mounted) {
         _loadingController.forward();
       }
